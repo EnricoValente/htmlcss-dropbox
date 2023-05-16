@@ -118,10 +118,48 @@ button + div{
     
 
 /* DEBUG */
-
-
-
+.debug .container-small > .business{
+    font-weight: bold;
+    font-size: 3.0em;
+    margin-top: 100px;
     
+}
+
+.debug .container-small > div{
+    margin-top: 30px;
+    
+}
+
+.debug .flex{
+    display: flex;
+    align-items: center;
+    margin: 0 -20px;
+    
+}
+
+.debug .col-1{
+    width: calc((100% / 3) - 40px);
+    margin: 20px;
+    background-color: deeppink;
+    border: 2px dashed greenyellow;
+}
+
+.debug .col-2{
+    width: calc((100% / 3) - 40px);
+    margin: 20px;
+    background-color: darkred;
+    border: 2px dashed darkgoldenrod;
+
+}
+
+.debug .col-3{
+    width: calc((100% / 3) - 40px);
+    margin: 20px;
+    background-color: darkgreen;
+    border: 2px dashed darkblue;
+
+
+}
     
 
 
