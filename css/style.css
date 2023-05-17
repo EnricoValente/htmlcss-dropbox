@@ -20,6 +20,11 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+img {
+    width: 100%;
+    display: block;
+}
+
 /* HEADER */
 header > nav{
     background-color: white;
@@ -52,9 +57,9 @@ nav > div{
 } 
 
 .blue > a{
-    text-decoration: none;
     color: white;
     font-size: 1.1em;
+    text-decoration: none;
 }
     
     
@@ -69,7 +74,7 @@ nav + section{
     top: 120px;
 }
 
-.container-relative > p{
+.container-relative > h1{
     font-size: 5.0em;
     font-weight: bold;
     line-height: 80px;
@@ -118,50 +123,116 @@ button + div{
     
 
 /* DEBUG */
-.debug .container-small > .business{
+.container-small > h2{
     font-weight: bold;
     font-size: 3.0em;
     margin-top: 100px;
     
 }
 
-.debug .container-small > div{
+.container-small > div{
     margin-top: 30px;
     
 }
 
-.debug .flex{
+.flex{
     display: flex;
-    align-items: center;
+    align-items: stretch;
+    flex-wrap: wrap;
     margin: 0 -20px;
     
 }
 
-.debug .col-1{
+.col-1{
     width: calc((100% / 3) - 40px);
     margin: 20px;
-    background-color: deeppink;
-    border: 2px dashed greenyellow;
+    border: 1px solid lightgray;
+    
 }
 
-.debug .col-2{
-    width: calc((100% / 3) - 40px);
-    margin: 20px;
-    background-color: darkred;
-    border: 2px dashed darkgoldenrod;
-
+.user{
+    text-align: center;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 5px;
 }
 
-.debug .col-3{
+.subscription{
+    margin: 20px;
+}
+
+
+
+ul{
+    list-style:none;
+}
+
+li{
+    margin: 20px;
+}
+
+.button{
+    text-align: center;
+}
+
+.buy{
+    margin: 20px;
+}
+
+.flex hr{
+    width: 20%;
+    margin: 30px;
+}
+
+.flex h4{
+    margin: 30px;
+}
+
+li > span{
+
+    color:#0061FF;
+}
+
+
+
+.col-2{
     width: calc((100% / 3) - 40px);
     margin: 20px;
-    background-color: darkgreen;
-    border: 2px dashed darkblue;
-
-
+    border: 1px solid lightgray;
 }
     
 
+
+.col-3{
+    width: calc((100% / 3) - 40px);
+    margin: 20px;
+    border: 1px solid lightgray;
+}
+    
+
+
+    
+.col-4{
+    width: calc(100% - 40px);
+    margin: 20px;
+    border: 1px solid lightgray;
+    position: relative;
+}
+
+.col-4 div,h3{
+    margin: 20px;
+}
+
+#solutions{
+    margin-top: 70px;
+}
+
+#solutions + .blue{
+    position: absolute;
+    top: 70px;
+    right: 20px;
+
+}
+    
 
 
 
