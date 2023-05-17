@@ -20,13 +20,9 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-img {
-    width: 100%;
-    display: block;
-}
 
 /* HEADER */
-header > nav{
+header > nav {
     background-color: white;
     display: flex;
     justify-content: space-between;
@@ -34,108 +30,114 @@ header > nav{
     width: 100%;
     z-index: 1;
 }
-   
 
-nav > div{
-   margin: 30px;
+
+nav > div {
+    margin: 30px;
 }
 
 
 
-.nav-link{
+.nav-link {
     text-decoration: none;
     color: black;
     padding: 10px;
     align-items: center;
 }
-    
-.blue{
+
+.blue {
     background-color: #0061FF;
+    color: white;
     text-align: center;
     padding: 5px;
     border: none;
 } 
 
-.blue > a{
-    color: white;
-    font-size: 1.1em;
-    text-decoration: none;
-}
-    
-    
-nav + section{
+
+
+
+nav + section {
     background-color:#B4D0E7;
 }
 
-.container-relative{
+.container-relative {
     max-width: 1200px;
     margin: 0 auto;
     position: relative;
     top: 120px;
 }
 
-.container-relative > h1{
-    font-size: 5.0em;
+.container-relative > h1 {
+    font-size: 2.0em;
     font-weight: bold;
-    line-height: 80px;
+    line-height: 30px;
     text-align: center;
 }
-    
-    
 
-.row{
-   display:flex;
-   justify-content: center;
-   margin: 0 -20px;
-   
+
+
+.row {
+    display:flex;
+    justify-content: center;
+    margin: 0 -20px;
+    
 }
-    
 
-.small{
+
+.small {
     width:calc(40% - 40px);
     margin: 20px;
     margin-top: 40px;
 }
 
-.small > p{
+.small > p {
     font-size: 1.2em;
 }
 
-.small > button{
+.small > button {
     margin-top: 20px;
 }
 
-button + div{
+button + div {
     margin-top: 20px;
 }
 
-.small div > i{
+.small div > i {
     margin-top: 20px;
     font-size: 1.2em;
 }
 
-.big{
-
+.big {
+    
     width:calc(60% - 40px);
     margin: 20px;
     margin-top: 40px;
 }
-    
 
-/* DEBUG */
-.container-small > h2{
+.big img {
+    width: 100%;
+    display: block;
+}
+
+/* SECTION 1 MAIN */
+.container-small > h2 {
     font-weight: bold;
-    font-size: 3.0em;
-    margin-top: 100px;
+    font-size: 1.5em;
+    margin-top: 70px;
     
 }
 
-.container-small > div{
+.container-small > div {
     margin-top: 30px;
     
 }
 
-.flex{
+input:checked { 
+    background-color: #0061FF;
+
+}
+
+.flex {
     display: flex;
     align-items: stretch;
     flex-wrap: wrap;
@@ -143,58 +145,58 @@ button + div{
     
 }
 
-.col-1{
+.col-1 {
     width: calc((100% / 3) - 40px);
     margin: 20px;
     border: 1px solid lightgray;
     
 }
 
-.user{
+.user {
     text-align: center;
     border-bottom: 1px solid lightgray;
     padding-bottom: 5px;
 }
 
-.subscription{
+.subscription {
     margin: 20px;
 }
 
 
 
-ul{
+ul {
     list-style:none;
 }
 
-li{
+li {
     margin: 20px;
 }
 
-.button{
+.button {
     text-align: center;
 }
 
-.buy{
+.buy {
     margin: 20px;
 }
 
-.flex hr{
+.flex hr {
     width: 20%;
     margin: 30px;
 }
 
-.flex h4{
+.flex h4 {
     margin: 30px;
 }
 
-li > span{
+li > span {
 
     color:#0061FF;
 }
 
 
 
-.col-2{
+.col-2 {
     width: calc((100% / 3) - 40px);
     margin: 20px;
     border: 1px solid lightgray;
@@ -202,7 +204,7 @@ li > span{
     
 
 
-.col-3{
+.col-3 {
     width: calc((100% / 3) - 40px);
     margin: 20px;
     border: 1px solid lightgray;
@@ -211,28 +213,42 @@ li > span{
 
 
     
-.col-4{
+.col-4 {
     width: calc(100% - 40px);
     margin: 20px;
     border: 1px solid lightgray;
     position: relative;
 }
 
-.col-4 div,h3{
+.col-4 div,h3 {
     margin: 20px;
 }
 
-#solutions{
+#solutions {
     margin-top: 70px;
 }
 
-#solutions + .blue{
+#solutions + .blue {
     position: absolute;
     top: 70px;
     right: 20px;
+}
+
+
+/* SECTION 2 MAIN */
+h2 + p {
+    margin-top: 20px;
 
 }
-    
+
+.white {
+    background-color: white;
+    padding: 5px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 1.5em;
+
+}   
 
 
 
