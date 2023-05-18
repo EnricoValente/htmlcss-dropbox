@@ -140,6 +140,7 @@ input:checked {
 .flex {
     display: flex;
     flex-wrap: wrap;
+    align-items: stretch;
     margin: 0 -20px;
 }
     
@@ -251,72 +252,60 @@ h2 + p {
 }   
 
 /* SECTION 3 MAIN */
-.col-5 {
+.col-5-10 {
     width: calc((100% / 3) - 40px);
     margin: 20px;
 
 }
 
-.col-6 {
-    width: calc((100% / 3) - 40px);
-    margin: 20px;
 
-}
 
-.col-7 {
-    width: calc((100% / 3) - 40px);
-    margin: 20px;
-
-}
-
-.col-8 {
-    width: calc((100% / 3) - 40px);
-    margin: 20px;
-
-}
-
-.col-9 {
-    width: calc((100% / 3) - 40px);
-    margin: 20px;
-
-}
-
-.col-10 {
-    width: calc((100% / 3) - 40px);
-    margin: 20px;
-
-}
-
-.col-5 > img {
+.col-5-10 > img {
     width: 100%;
     display: block;
 }
 
-.col-6 > img {
-    width: 100%;
-    display: block;
+img + h3 {
+    text-align: center;
 }
 
-.col-7 > img {
-    width: 100%;
-    display: block;
+
+/* SECTION 4 MAIN */
+.title {
+    font-size: 3.0em;
+    text-align: center;
+    margin-top: 60px;
+    
 }
 
-.col-8 > img {
-    width: 100%;
-    display: block;
+.title + div {
+   margin: 60px;
+    
 }
 
-.col-9 > img {
-    width: 100%;
-    display: block;
+
+/* DEBUG */
+
+.debug .customer-container {
+    display: flex;
 }
 
-.col-10 > img {
-    width: 100%;
-    display: block;
+.debug .single-container {
+    width: calc(100% / 3);
+    height: calc(100vw / 3);
+    background-color: greenyellow;
+    border: 2px dashed black;
+    display: flex;
+    flex-wrap: wrap;
 }
 
+.debug .single-container > div {
+    width: 50%;
+    height: 50%;
+    background-color: orange;
+    border: 2px dashed blue;
+}
+    
 
 
 
