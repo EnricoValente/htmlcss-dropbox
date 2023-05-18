@@ -1,3 +1,5 @@
+
+
 /* RESET */
 *{
     margin: 0;
@@ -286,25 +288,160 @@ img + h3 {
 
 /* DEBUG */
 
-.debug .customer-container {
+.customer-container {
     display: flex;
 }
 
-.debug .single-container {
+.single-container {
     width: calc(100% / 3);
     height: calc(100vw / 3);
-    background-color: greenyellow;
-    border: 2px dashed black;
     display: flex;
     flex-wrap: wrap;
+    background-color:#F5F5F5;
+    align-items: flex-start;
+    
+    
+    
+    
 }
+    
+    
 
-.debug .single-container > div {
+.single-container > div {
     width: 50%;
     height: 50%;
-    background-color: orange;
-    border: 2px dashed blue;
+    
 }
+
+.single-container img {
+    width: 50%;
+    display: block;
+}
+
+#img-1 {
+    background-color: #A2D39B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+#img-1 > img {
+    filter:  brightness(0) invert(1);
+}
+
+#img-2 {
+    background-color: #61082B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#img-2 > img {
+    filter:  brightness(0) invert(1);
+
+}
+
+#img-3 {
+    background-color:#0093CE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#img-3 > img {
+    filter:  brightness(0) invert(1);
+
+}
+
+#img-4 {
+    background-color:#FF1C1C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#img-4 > img {
+    filter:  brightness(0) invert(1);
+
+}
+
+#img-5 {
+    background-color:#FF1C1C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#img-5 > img {
+    filter:  brightness(0) invert(1);
+
+}
+
+#img-6 {
+    background-color:#B4D0E7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#img-6 > img {
+    filter:  brightness(0) invert(1)
+}
+
+#img-7 {
+    background-color:#0D2481;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#img-7 > img {
+    filter:  brightness(0) invert(1)
+}
+
+#img-8 {
+    background-color:#FFD830;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#img-8 > img {
+    filter:  brightness(0) invert(1)
+}
+
+.single-container > img {
+    padding: 30px;
+}
+
+.single-container > p {
+    text-align: center;
+    position: relative;
+    bottom: 120px;
+}
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+
+
+
 
 
 /* SECTION 6 MAIN */
@@ -348,3 +485,6 @@ section > h2 {
     margin-left: 50px;
 }
     
+
+
+/* FOOTER */
