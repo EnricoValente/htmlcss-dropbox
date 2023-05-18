@@ -273,10 +273,10 @@ img + h3 {
 /* SECTION 4 MAIN */
 .title {
     font-size: 3.0em;
-    text-align: center;
-    margin-top: 60px;
+    margin: 60px;
     
 }
+    
 
 .title + div {
    margin: 60px;
@@ -305,7 +305,46 @@ img + h3 {
     background-color: orange;
     border: 2px dashed blue;
 }
+
+
+/* SECTION 6 MAIN */
+.company {
+    background-color: #B4D0E7;
+}
+
+
+.big > h2 {
+    color:#5A001D;
+    font-size: 3.0em;
+    margin-left: 30px;
+}
+
+.white-1 {
+    background-color: white;
+    font-size: 1.2em;
+    border:none;
+    padding: 10px;
+}
+
+
+/* SECTION 7 MAIN */
+section > h2 {
+    font-size: xx-large;
+    margin: 40px;
     
+}
 
+.hr-questions {
+    margin: 50px;
+    color: lightgray;
+    width:60%
+}
 
+.questions {
+    margin-left: 50px;
+}
 
+.chevron {
+    margin-left: 50px;
+}
+    
