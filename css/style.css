@@ -271,6 +271,10 @@ img + h3 {
     text-align: center;
 }
 
+h3 + p {
+    text-align: center;
+}
+
 
 /* SECTION 4 MAIN */
 .title {
@@ -286,7 +290,7 @@ img + h3 {
 }
 
 
-/* DEBUG */
+/* SECTION 5 MAIN */
 
 .customer-container {
     display: flex;
@@ -452,8 +456,11 @@ img + h3 {
 
 .big > h2 {
     color:#5A001D;
-    font-size: 3.0em;
-    margin-left: 30px;
+    font-size: 2.5em;
+    margin: 30px;
+    padding: 10px;
+    
+    
 }
 
 .white-1 {
@@ -461,7 +468,12 @@ img + h3 {
     font-size: 1.2em;
     border:none;
     padding: 10px;
+    
 }
+    
+    
+
+
 
 
 /* SECTION 7 MAIN */
@@ -469,16 +481,16 @@ section > h2 {
     font-size: xx-large;
     margin: 40px;
     
+    
 }
 
-.hr-questions {
-    margin: 50px;
-    color: lightgray;
-    width:60%
-}
 
 .questions {
     margin-left: 50px;
+    border-bottom: 1px solid lightgray;
+    width: 50%;
+    padding: 3rem;
+    text-align: center;
 }
 
 .chevron {
@@ -488,3 +500,37 @@ section > h2 {
 
 
 /* FOOTER */
+footer {
+    background-color: black;
+}
+
+.my-row {
+    display: flex;
+    justify-content: center;
+    margin: 0 -25px;
+}
+
+.my-row > div {
+    width: calc((100% / 5) - 50px);
+    margin: 25px;
+    color: white;
+}
+
+
+.my-row a {
+    color: white;
+    text-decoration: none;
+}
+
+
+footer hr {
+    width: 10%;
+    color: white;
+    margin-left: 250px;
+}
+
+hr + div {
+    color: white;
+    margin-left: 250px;
+    margin-top: 30px;
+}
